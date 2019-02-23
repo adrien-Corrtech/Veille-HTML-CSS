@@ -1,35 +1,44 @@
-style.css
-Hier
-ven. 09:22
+body {
+	  background-image: url("fond.jpg");
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+      background-size: 100%;
+      background-position: right bottom;
 
-Jérémy THOMAS a importé un élément
-Feuille de style
-style.css
+}
 header {
+	height: 300px;
 	display: flex;
 	position: sticky; ;
-	background-color: black;
+	/*background-color: black;
 	width: 100%;
 	opacity: 0.7;*/
 }
 
 #logo{
 	width: 50%;
-	margin-left: 2em;
+	margin-left: 5em;
 	margin-top: 0.5em;
 }
 
 #zone_logo{
-	width: 20%;
+	width: 40%;
+	height: 100%;
 }
 
 #zone_titre{
 	width: 80%;
+	
 }
 
 #titre{
 	text-align: center;
 	margin-left: -10em;
+	font-family: 'Sigmar One', cursive;
+	color: #ff6600;
+	font-size: 120%;
+	-webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #fff;
 }
 
 h1{
@@ -37,14 +46,18 @@ h1{
 }
 
 h2{
+	font-family: 'Boogaloo', cursive;
 	text-align: center;
+	font-size: 180%;
+	color: #fff;
+	text-shadow:2px 4px 3px black;
 	padding-top: 1.2em;
 }
 
 nav ul{
 	list-style-type: none;
 	display: flex;
-	margin-left: 27%;
+	margin-left: 20%;
 	margin-top: 5%;
 	background-color: black;
 	width: 18em;
@@ -55,19 +68,23 @@ nav ul{
 
 nav li{
 	margin-left: 15%;
+    font-family: 'Roboto', sans-serif;
 }
 
 #bandeau_haut{
 	background:url(orang_outan.jpg);
-	height: 40em;
+	height: 30em;
 	width: 104%;
 	border:0.2em solid black;
 	margin-left: -1em;
-	background-size: cover;*/
+	background-size: 100%;*/
 	padding-top: 15%*/
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #description_banniere{
+	font-family: 'Boogaloo', cursive;
 	text-align: center;
 	font-size: 2.5em;
 	color: white;
@@ -88,6 +105,8 @@ hr{
 
 #vite_dit{
 	display: flex;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
 }
 
 #premiere_partie{
@@ -124,6 +143,7 @@ hr{
 	padding-left: 7em;
 	padding-right: 11em;
 	color: white;
+	font-family: 'Roboto', sans-serif;
 }
 
 #image_borneo{
@@ -135,6 +155,7 @@ hr{
 footer{
 	display: flex;
 	justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	background-image: linear-gradient(grey, black)
 }
