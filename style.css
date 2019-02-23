@@ -4,12 +4,13 @@ body {
 	  background-attachment: fixed;
       background-size: 100%;
       background-position: center bottom;
+      margin-right: -50px;
 
 }
 header {
 	height: 300px;
 	display: flex;
-	position: sticky; ;
+	position: sticky;
 	/*background-color: black;
 	width: 100%;
 	opacity: 0.7;*/
