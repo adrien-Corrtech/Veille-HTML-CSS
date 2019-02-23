@@ -4,11 +4,10 @@ body {
 	  background-attachment: fixed;
       background-size: 100%;
       background-position: center bottom;
-      margin-right: -50px;
 
 }
 header {
-	height: 300px;
+	height: 400px;
 	display: flex;
 	position: sticky;
 	/*background-color: black;
@@ -60,7 +59,10 @@ nav ul{
 	display: flex;
 	margin-left: 20%;
 	margin-top: 5%;
+	padding-top: 10px;
+	padding-left: 15px;
 	background-color: black;
+	height: 2em;
 	width: 18em;
 	color: white;
 	border-radius: 0.4em;
@@ -68,7 +70,7 @@ nav ul{
 }
 
 nav li{
-	margin-left: 15%;
+	margin-left: 20%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -159,6 +161,7 @@ footer{
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	background-image: linear-gradient(grey, black)
+	
 }
 
 .reseaux_sociaux{
