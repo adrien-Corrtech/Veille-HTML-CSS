@@ -78,7 +78,7 @@ nav li{
 	background:url(orang_outan.jpg);
 	height: 30em;
 	width: 104%;
-	border:0.2em solid black;
+	border:0.2em solid white;
 	margin-left: -1em;
 	background-size: 100%;*/
 	padding-top: 15%*/
@@ -94,7 +94,19 @@ nav li{
 	font-weight:bold;
 	padding-top:2em;
 	text-shadow:2px 4px 3px black;
+
 }
+
+
+.bouton{
+color: #ff6347; /* couleur du texte */
+cursor:pointer; /* apparence du curseur */
+display: inline-block; 
+border: solid 4px black; /* applique une bordure noire */
+padding: 5px; /* espace entre la bordure et le texte */
+margin-left:1em;
+}
+
 
 /*body{
 	height: 100%;
