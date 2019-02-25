@@ -8,6 +8,7 @@ body {
       /*background-position: center bottom;*/
 
 }
+
 header {
 	height: 600px;
 	display: flex;
@@ -74,6 +75,11 @@ nav ul{
 nav li{
 	margin-left: 20%;
     font-family: 'Roboto', sans-serif;
+}
+
+a{
+	color: white;
+	text-decoration: none;
 }
 
 #bandeau_haut{
@@ -157,7 +163,7 @@ hr{
 	margin-bottom: 3%;
 }
 
-#contact {
+h3 {
 	font-family: 'Boogaloo', cursive;
 	font-size: 2.5em;
 	color: white;
@@ -198,7 +204,3 @@ footer{
 	color: white;
 }
 
-a{
-	color: white;
-	text-decoration: none;
-}
